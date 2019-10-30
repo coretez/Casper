@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1292px" height="128px" viewBox="0 0 1292 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(22.000000, -18.000000)" fill="#FFFFFF">
+            <polygon id="Rectangle" points="70.902768 35 78.1837988 44.8429033 23.374196 119.222619 39.5648836 119.222619 86.2966967 55.5614504 94 66.3653066 47.9654729 130 23.374196 130 0 130"></polygon>
+            <polygon id="Rectangle" points="102.908657 78 110.408375 87.3943808 86.5772906 119.215767 102.908657 119.215767 118.297639 99.1161386 126 109.199804 111.382237 130 86.5772906 130 63 130"></polygon>
+            <text id="exabeam" font-family="OpenSans, Open Sans" font-size="120" font-weight="normal">
+                <tspan x="136" y="128">exabeam</tspan>
+            </text>
+        </g>
+        <text id="ARCHIVE-DATA" font-family="ArialNarrow-Bold, Arial Narrow" font-size="92" font-weight="bold" fill="#FFFFFF">
+            <tspan x="711" y="110">ARCHIVE DATA</tspan>
+        </text>
+    </g>
+</svg>

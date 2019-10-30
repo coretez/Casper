@@ -1,4 +1,4 @@
-# casper (casper)
+# Casper (casper)
 
 Alertnative interface basaed on an external UX design.
 
