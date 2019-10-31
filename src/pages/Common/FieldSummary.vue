@@ -63,8 +63,8 @@ export default {
 .fieldGutter {
   min-width: 120px;
   width: 20%;
-  margin: 10px;
-  padding: 10px;
+  padding: 20px;
+  border-right: 1px solid #cecece;
   background-color: #f5f6f8;
 }
 

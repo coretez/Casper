@@ -150,9 +150,9 @@ export default {
 
 <style scoped>
 .tableSpace {
-  width: 80%;
-  margin: 10px;
-  padding: 10px;
+  width: 100%;
+  padding: 20px;
+  background-color: #f5f6f8
 }
 
 .record-data {

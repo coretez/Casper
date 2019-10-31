@@ -27,7 +27,7 @@ export default {
 
 <style>
 .page-wrapper {
-  margin: 15px;
+  margin: 0;
 }
 
 .row {
