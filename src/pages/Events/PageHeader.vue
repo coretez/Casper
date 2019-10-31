@@ -43,18 +43,18 @@
 <script>
 export default {
   name: 'SectionEventsHeader',
-  data() {
+  data () {
     return {
       searchString: '',
-      searchRange: 'Within One Month',
-    };
+      searchRange: 'Within One Month'
+    }
   },
   methods: {
-    onItemClick(state) {
-      this.searchRange = state;
-    },
-  },
-};
+    onItemClick (state) {
+      this.searchRange = state
+    }
+  }
+}
 </script>
 
 <style scoped>

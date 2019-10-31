@@ -1,53 +1,48 @@
 module.exports = {
   root: true,
-
   parserOptions: {
     parser: 'babel-eslint',
     sourceType: 'module'
   },
-
   env: {
-    browser: true
+    browser: true,
+    jest: true
   },
-
-  // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
-  // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
   extends: [
+    // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
+    // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
     'plugin:vue/essential',
-    'airbnb-base'
+    // https://github.com/standard/standard/blob/master/docs/RULES-en.md
+    'standard'
   ],
-
   // required to lint *.vue files
   plugins: [
     'vue'
   ],
-
   globals: {
     'ga': true, // Google Analytics
     'cordova': true,
-    '__statics': true,
-    'process': true,
-    'Capacitor': true
+    '__statics': true
   },
-
   // add your custom rules here
-  rules: {
-    'no-param-reassign': 'off',
+  'rules': {
+    // allow async-await
+    'generator-star-spacing': 'off',
 
-    'import/first': 'off',
-    'import/named': 'error',
-    'import/namespace': 'error',
-    'import/default': 'error',
-    'import/export': 'error',
-    'import/extensions': 'off',
-    'import/no-unresolved': 'off',
-    'import/no-extraneous-dependencies': 'off',
-    'import/prefer-default-export': 'off',
-    'prefer-promise-reject-errors': 'off',
+    // allow paren-less arrow functions
+    'arrow-parens': 0,
+    'one-var': 0,
 
-    // allow console.log during development only
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    // allow debugger during development only
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'import/first': 0,
+    'import/named': 2,
+    'import/namespace': 2,
+    'import/default': 2,
+    'import/export': 2,
+    'import/extensions': 0,
+    'import/no-unresolved': 0,
+    'import/no-extraneous-dependencies': 0,
+
+    // allow debugger during development
+    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
   }
 }

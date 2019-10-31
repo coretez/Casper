@@ -11,18 +11,18 @@
 </template>
 
 <script>
-import BaseTable from './Events/BaseTable';
-import FieldSummary from './Common/FieldSummary';
-import PageHeader from './Events/PageHeader';
+import BaseTable from './Events/BaseTable'
+import FieldSummary from './Common/FieldSummary'
+import PageHeader from './Events/PageHeader'
 
 export default {
   name: 'PageEvents',
   components: {
     PageHeader,
     BaseTable,
-    FieldSummary,
-  },
-};
+    FieldSummary
+  }
+}
 </script>
 
 <style>
@@ -43,6 +43,5 @@ export default {
   flex-basis: 100%;
   flex: 1;
 }
-
 
 </style>

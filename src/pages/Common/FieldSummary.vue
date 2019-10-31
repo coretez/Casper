@@ -10,16 +10,16 @@
 </template>
 
 <script>
-import TitleRow from './FieldSummary/titleRow';
-import ItemRow from './FieldSummary/itemRow';
+import TitleRow from './FieldSummary/titleRow'
+import ItemRow from './FieldSummary/itemRow'
 
 export default {
   name: 'ComponentFieldSummary',
   components: {
     TitleRow,
-    ItemRow,
+    ItemRow
   },
-  data() {
+  data () {
     return {
       groups: [{
         title: 'Account Manager',
@@ -30,8 +30,8 @@ export default {
           { key: 'domain', value: 6 },
           { key: 'event_code', value: 7 },
           { key: 'target_user', value: 60 },
-          { key: 'very long field name', value: 5 },
-        ],
+          { key: 'very long field name', value: 5 }
+        ]
       }, {
         title: 'Account Switch',
         icon: 'fa fa-user',
@@ -40,8 +40,8 @@ export default {
           { key: 'dest_host', value: 4 },
           { key: 'event_code', value: 1 },
           { key: 'host', value: 5 },
-          { key: 'user', value: 5 },
-        ],
+          { key: 'user', value: 5 }
+        ]
       }, {
         title: 'Application',
         icon: 'fa fa-user',
@@ -50,13 +50,13 @@ export default {
           { key: 'app', value: 17 },
           { key: 'host', value: 18 },
           { key: 'src_ip', value: 19 },
-          { key: 'user', value: 5 },
-        ],
-      },
-      ],
-    };
-  },
-};
+          { key: 'user', value: 5 }
+        ]
+      }
+      ]
+    }
+  }
+}
 </script>
 
 <style scoped>

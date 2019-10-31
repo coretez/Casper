@@ -51,13 +51,13 @@
 <script>
 export default {
   name: 'ArchiveLayout',
-  data() {
+  data () {
     return {
       namespace: 'dashboard',
-      activePage: 'search',
-    };
-  },
-};
+      activePage: 'search'
+    }
+  }
+}
 </script>
 
 <style scoped>

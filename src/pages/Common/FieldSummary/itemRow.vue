@@ -8,8 +8,8 @@
 <script>
 export default {
   props: ['k', 'value'],
-  name: 'itemRowFieldSummary',
-};
+  name: 'itemRowFieldSummary'
+}
 </script>
 
 <style scoped>
