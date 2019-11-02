@@ -1,13 +1,14 @@
 <template>
   <div>
-    Table Header
+    {{ count }} Matching Events
   </div>
 </template>
 
 <script>
 export default {
-  name: 'SectionTableHeader',
-};
+  props: ['count'],
+  name: 'SectionTableHeader'
+}
 </script>
 
 <style scoped>
